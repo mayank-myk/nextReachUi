@@ -1,0 +1,5 @@
+vm 
+window - rdp - copy - deploy 
+
+2) azure arc
+laptop 

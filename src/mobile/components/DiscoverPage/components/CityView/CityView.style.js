@@ -1,0 +1,106 @@
+import styled from "styled-components";
+
+export const Container = styled.div`
+    background-color: #FFF9F9;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    gap: 1rem;
+
+`;
+
+export const Left = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // gap: 1rem;
+`
+
+export const LeftTitle = styled.div`
+    color: var(--tertiary-color, #333);
+    text-align: center;
+    font-family: "LEMON MILK";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30px; /* 125% */
+`
+
+export const LeftSubTitle = styled.div`
+    color: var(--tertiary-color, #333);
+    text-align: center;
+    font-family: "Avenir Next LT Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 80%;
+`
+
+export const ExploreBtn = styled.button`;
+    border: none;
+    color: #FFF;
+    font-family: "Avenir Next LT Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: flex;
+    width: 110px;
+    height: 30px;
+    padding: 10px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: var(--primary-color, #E66A44);
+`
+export const Right = styled.div`
+    // padding: 2rem;
+    display: flex;
+    gap: 28px;
+    flex-direction: column;
+`
+export const FirstPart = styled.div`
+    display: flex;
+    justify-content: space-around;
+    gap: 28px;
+`;
+
+export const Carousel = styled.div`
+    display: flex;
+    gap: 1rem;
+    // flex-wrap: wrap;
+`
+
+export const InfluencerInfo = styled.div`
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #9F9F9F;
+    border-radius: 12px;
+    width: 153px;
+    height: 137px;
+    flex-shrink: 0;
+    justify-content: space-around;
+`
+
+export const ImageContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    // padding-top: 18px;
+    // background: url(<path-to-image>) lightgray 50% / cover no-repeat;
+`;
+
+export const CityTitle = styled.div`
+    color: var(--tertiary-color, #333);
+    text-align: center;
+    font-family: "Avenir Next LT Pro";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+`
